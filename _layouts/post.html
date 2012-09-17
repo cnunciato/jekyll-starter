@@ -4,7 +4,8 @@
 	<title></title>
 </head>
 <body>
-	<h1>{{ page.title }}</h1>
+	<h1><a href="{{ site.base_url }}{{ page.url }}">{{ page.title }}</a></h1>
+	<p>{{ page.date | date_to_string }}</p>
 	<p>{{ content }}</p>
 </body>
 </html>

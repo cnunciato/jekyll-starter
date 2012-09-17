@@ -7,11 +7,12 @@
 	<title></title>
 </head>
 <body>
-	<h1>Hello, world!</h1>
+	<h1>Welcome to my blog!</h1>
 
 	{% for post in site.posts %}
-		<h2>{{ post.title }}</h2>
-		<p>{{ post.body }}</p>
+		<h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+		<p>{{ post.date | date_to_string }}</p>
+		<p>{{ post.content }}</p>
 	{% endfor %}
 </body>
 </html>
