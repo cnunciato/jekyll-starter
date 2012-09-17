@@ -1,16 +1,16 @@
 jekyll-starter
 ==============
 
-A super-simple starter-kit for Jekyll.  To use, just
+A super-simple starter-kit for a bare-bones Jekyll instance.  To use, just:
 
     gem install jekyll
 
-and then
+... then:
 
 	git clone git@github.com:cnunciato/jekyll-starter.git
 
-and then finally
+... and then finally:
 
     jekyll --server
 
-... and get to work!    
+Then get to work!    
