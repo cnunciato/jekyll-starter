@@ -1,7 +1,7 @@
 jekyll-starter
 ==============
 
-A super-simple starter kit for a bare-bones Jekyll instance.  To use, just:
+A super-simple starter kit for a bare-bones Jekyll instance.  To use, just install Jekyll  (if you haven't already):
 
     gem install jekyll
 
