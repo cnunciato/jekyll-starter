@@ -12,7 +12,6 @@ A super-simple starter kit for a bare-bones Jekyll instance.  To use, just:
 
 ... and then finally:
 
-    cd jekyll-starter
     jekyll --server
 
 Then open your browser and hit http://localhost:5000.
