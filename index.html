@@ -1,0 +1,17 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Hello, world!</h1>
+
+	{% for post in site.posts %}
+		<h2>{{ post.title }}</h2>
+		<p>{{ post.body }}</p>
+	{% endfor %}
+</body>
+</html>
