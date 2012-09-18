@@ -14,7 +14,7 @@ A super-simple starter kit for a bare-bones Jekyll instance.  To use, just insta
 
     jekyll --server
 
-Then open your browser and hit [http://localhost:5000].
+Then open your browser and hit [http://localhost:5000](http://localhost:5000).
 
 That'll get you a home page and one post.  The rest is all you!  See the [Jekyll docs](https://github.com/mojombo/jekyll/wiki) for details.
 
