@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello from Jekyll!"
+title: "My First Post"
 ---
 
 This is my first post!  Don't I rule?

@@ -4,15 +4,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="stylesheet" href="/css/site.css">
+	<script src="/js/site.js"></script>
+	<title>My Blog</title>
 </head>
 <body>
-	<h1>Welcome to my blog!</h1>
-
-	{% for post in site.posts %}
-		<h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
-		<p>{{ post.date | date_to_string }}</p>
-		<p>{{ post.content }}</p>
-	{% endfor %}
+	<header>
+		{% include header.html %}
+	</header>
+	<div class="container">
+		{% for post in site.posts %}
+			<article>
+				<h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+				<p>{{ post.date | date_to_string }}</p>
+				<p>{{ post.content }}</p>
+			</article>
+		{% endfor %}
+	</div>
+	<footer>
+		{% include footer.html %}
+	</footer>
 </body>
 </html>

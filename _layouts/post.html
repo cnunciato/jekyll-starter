@@ -1,11 +1,28 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="stylesheet" href="/css/site.css">
+	<script src="/js/site.js"></script>
+	<title>My Blog</title>
 </head>
 <body>
-	<h1><a href="{{ site.base_url }}{{ page.url }}">{{ page.title }}</a></h1>
-	<p>{{ page.date | date_to_string }}</p>
-	<p>{{ content }}</p>
+	<header>
+		{% include header.html %}
+	</header>
+	<div class="container">
+		{% for post in site.posts %}
+			<article>
+				<h1><a href="{{ site.base_url }}{{ page.url }}">{{ page.title }}</a></h1>
+				<p>{{ page.date | date_to_string }}</p>
+				<p>{{ content }}</p>
+			</article>
+		{% endfor %}
+	</div>
+	<footer>
+		{% include footer.html %}
+	</footer>
 </body>
 </html>
