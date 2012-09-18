@@ -18,7 +18,7 @@ Then open your browser and hit [http://localhost:5000](http://localhost:5000).
 
 That'll get you a home page and one post.  The rest is all you!  See the [Jekyll docs](https://github.com/mojombo/jekyll/wiki) for details.
 
-Keep in mind that at this point, you'll have a cloned version of my repostory.  To start fresh with a commit history of your own (which I'd recommend, unless you plan on contributing to this project), do this from the root of my-new-blog:
+Keep in mind that at this point, you'll have a cloned version of my repository, which you might not want.  To start fresh with a commit history of your own (which I'd recommend, unless you plan on contributing to this project), do this from the root of `my-new-blog`:
 
     rm -rf .git
     git init
