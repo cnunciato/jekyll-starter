@@ -1,2 +1,2 @@
-server_port:  5000
-auto: true
+port:  5000
+encoding: utf-8
